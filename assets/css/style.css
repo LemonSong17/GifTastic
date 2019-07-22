@@ -1,0 +1,13 @@
+body{
+    background-image: url(https://cheeseheadtv.com/sites/default/files/post/2019/07/usatsi_11856950.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+html {
+    height: 100%
+}
+
+h1, div{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}

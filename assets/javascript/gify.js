@@ -23,7 +23,7 @@ $(document).ready(function(){
     var nfl = $(this).html(); 
     console.log(nfl);
     
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + nfl + "&api_key=CC9BQdSJPTV0gX9VISAvgUiPY96Wxn9E";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + nfl + "&api_key=CC9BQdSJPTV0gX9VISAvgUiPY96Wxn9E";
         // console.log(queryURL);
         $.ajax({url: queryURL, 
         method: 'GET'})
